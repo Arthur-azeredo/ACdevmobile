@@ -1,0 +1,1 @@
+Aplicativo Android desenvolvido em Kotlin que descobre qual herói da Marvel combina mais com o usuário. Contém 3 telas, Intent implícita para compartilhamento e layout personalizado com cores da Marvel.
