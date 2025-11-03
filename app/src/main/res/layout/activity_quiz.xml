@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_marvel">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:background="#CC0A192F"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="Digite seu nome:"
+        android:textColor="@color/marvel_white"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:hint="Seu nome"
+        android:textColorHint="@color/marvel_gray"
+        android:textColor="@color/marvel_white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/marvel_red" />
+
+    <TextView
+        android:text="O que você valoriza mais?"
+        android:textColor="@color/marvel_white"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/rgQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:text="Inteligência e tecnologia"
+            android:textColor="@color/marvel_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:text="Força e resistência"
+            android:textColor="@color/marvel_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:text="Velocidade e coragem"
+            android:textColor="@color/marvel_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:text="Lealdade e disciplina"
+            android:textColor="@color/marvel_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnResult"
+        android:text="Ver Resultado"
+        android:textAllCaps="false"
+        android:textColor="@color/marvel_white"
+        android:backgroundTint="@color/marvel_red"
+        android:layout_marginTop="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+    </ScrollView>
